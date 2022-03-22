@@ -1,4 +1,5 @@
-//karanlıkta otomatık  yanan sokak lambası
+
+//Karanlıkta otomatık  yanan sokak lambası
 const int ledPin = D5;
 const int ldrPin = A0;
 

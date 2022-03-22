@@ -1,4 +1,6 @@
-// DHT11 kullanarak odanın sıcaklığı ve neminin ölçülmesi
+
+// DHT11 kullanarak odanın sıcaklığı ve neminin ölçülmesi BLYNK kullanımı
+
 #define BLYNK_PRINT Serial    
 #include <SPI.h>
 #include <ESP8266WiFi.h>// nodemcu esp8266 wifi modulu kutuphanesı
@@ -10,11 +12,11 @@ DHT dht(DHTPIN, DHTTYPE);
 
 /*************************************************************************************************************************************/
 
-char auth[] = "wYUB5t1DbhHKflhvzEmR1MezZwCK5vno"; //blynk uygulamasının tokenı 
+char auth[] = "************************"; //blynk uygulamasının tokenı 
 
-char ssid[] = "Xiaomi_DA23"; //baglanılan wifi ssid 
+char ssid[] = "************************"; //baglanılan wifi ssid 
 
-char pass[] = "Y3VW7EXWNAFT"; //wifi sifre
+char pass[] = "************************"; //wifi sifre
 /*************************************************************************************************************************************/
 
 

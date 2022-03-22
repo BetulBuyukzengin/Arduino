@@ -7,12 +7,12 @@
 HCSR04 hc(trig,echo);
 
 
-char auth[] = "wYUB5t1DbhHKflhvzEmR1MezZwCK5vno";
+char auth[] = "*********";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Xiaomi_DA23";
-char pass[] = "Y3VW7EXWNAFT";
+char ssid[] = "****************";
+char pass[] = "************";
  
 
 BlynkTimer timer;

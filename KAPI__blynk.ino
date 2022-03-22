@@ -7,11 +7,11 @@
 Servo kapi; //kapi adında nesne olustu
 /*************************************************************************************************************************************/
 
-char auth[] = "wYUB5t1DbhHKflhvzEmR1MezZwCK5vno"; //blynk uygulamasının tokenı 
+char auth[] = "***************"; //blynk uygulamasının tokenı 
 
-char ssid[] = "Xiaomi_DA23"; //baglanılan wifi ssid 
+char ssid[] = "***************"; //baglanılan wifi ssid 
 
-char pass[] = "Y3VW7EXWNAFT"; //wifi sifre
+char pass[] = "****************"; //wifi sifre
 
 /*************************************************************************************************************************************/
 void setup()

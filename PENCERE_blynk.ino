@@ -1,4 +1,5 @@
-//uygulama ile pencere kontrolu 
+
+//Uygulama ile pencere kontrolu 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 
@@ -12,11 +13,11 @@ Servo myservo;
 
 
 
-char auth[] = "wYUB5t1DbhHKflhvzEmR1MezZwCK5vno";
+char auth[] = "*******";
 
-char ssid[] = "Xiaomi_DA23";
+char ssid[] = "********";
 
-char pass[] = "Y3VW7EXWNAFT";
+char pass[] = "********";
 
 
 

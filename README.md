@@ -1,5 +1,5 @@
 # Arduino
 
-Akıllı Ev Projesi
-Nodemcu ESP8266 ile sensörlerin kullanımı.
+Akıllı Ev Projesi/n
+Nodemcu ESP8266 ile sensörlerin kullanımı./n
 Sensör kontrolü blynk uygulamasıyla yapıldı.

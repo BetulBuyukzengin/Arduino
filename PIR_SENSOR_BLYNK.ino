@@ -1,4 +1,5 @@
-//hırsız alarmı 
+
+//Hırsız alarmı 
 #include <Servo.h>    
 
 int pirPin = A0;                   
@@ -18,7 +19,7 @@ void loop() {
  if (hareket == HIGH) // hareket algılandığında
   {
   Serial.println("hareket algılandı");
-//  Blynk.notify("Dikkat !!! Evde hırsız var !"); // uygulamadan "Dikkat !!! Gaz Çıkışı var !" şeklinde  uyarı mesajı alınacak
+  //Blynk.notify("Dikkat !!! Evde hırsız var !"); 
 
   }
   if (hareket == LOW) // hareket algılanmadığında
@@ -26,39 +27,3 @@ void loop() {
   Serial.println("hareket algılanmadı");
   }
 }            
-/*
-int pirPin = 8;                   
-int servoPin = 9;                 
-int hareket;                      
-Servo motor;                      
-
-
-void setup() {
-  motor.attach(servoPin);         
-  pinMode(pirPin, INPUT);         
-
-}
-
-void loop() {
-  hareket = digitalRead(pirPin);  
-  
-  if(hareket == HIGH){            
-    motor.write(150);
-    delay(250);
-    motor.write(30);
-    delay(250);
-    motor.write(150);
-    delay(250);
-    motor.write(30);
-    delay(250);
-    motor.write(150);
-    delay(250);
-    motor.write(30);
-    delay(250);
-    motor.write(90);
-  }
-  else{                          
-    motor.write(90);
-    
-  }
-}*/

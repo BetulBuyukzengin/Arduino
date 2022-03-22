@@ -7,11 +7,11 @@
 
 
 
-char auth[] = "wYUB5t1DbhHKflhvzEmR1MezZwCK5vno";
+char auth[] = "************";
 
-char ssid[] = "Xiaomi_DA23";
+char ssid[] = "************";
 
-char pass[] = "Y3VW7EXWNAFT";
+char pass[] = "*************";
 
 
 int motorPin1 = D0;    
